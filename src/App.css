@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.parent_fetch_data_component .table-hover > tbody > tr:hover > * {
+  background-color: #61dafb;
+}
+ .parent_fetch_data_component .table {
+  --bs-table-striped-color: #edeaea !important;
+  --bs-table-striped-bg: #2f4f4f !important;
+}
+.parent_fetch_data_component .table-bordered > :not(caption) > * > * {
+  border-width: 5 var(--bs-border-width) !important;
+}
